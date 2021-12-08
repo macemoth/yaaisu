@@ -1,0 +1,206 @@
+baseURL: http://something-fresh.org/
+languageCode: en-us
+title: yaaisu
+theme: hugo-fresh
+googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
+# Disables warnings
+disableKinds:
+- taxonomy
+- taxonomyTerm
+markup:
+  goldmark:
+    renderer:
+      unsafe: true # Allows you to write raw html in your md files
+
+params:
+  # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
+  openGraph: true
+  # Used as meta data; describe your site to make Google Bots happy
+  description:
+  navbarlogo:
+  # Logo (from static/images/logos/___)
+    image: logos/logo.svg
+    link: /
+  font:
+    name: "Open Sans"
+    sizes: [400,600]
+  hero:
+    # Main hero title
+    title: Be aheader with us
+    # Hero subtitle (optional)
+    subtitle: AI, Quantum and data technologists with a passion for human AI
+    # Button text
+    buttontext: Get started
+    # Where the main hero button links to
+    buttonlink: "#section2"
+    # Hero image (from static/images/___)
+    image: illustrations/worker.svg
+    # Footer logos (from static/images/logos/clients/___.svg)
+    clientlogos:
+    - systek
+    - tribe
+    - kromo
+    - infinite
+    - gutwork
+  # Customizable navbar. For a dropdown, add a "sublinks" list.
+  navbar:
+  - title: Start
+    url: /
+  - title: About
+    url: about/
+  # - title: Pricing
+  #   url: /
+  # - title: Dropdown
+  #   sublinks:
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  #   - title: Dropdown item
+  #     url: /
+  # - title: Log in
+  #   url: /
+  # - title: Sign up
+  #   url: /
+    # button: true
+  # sidebar:
+  #   # Logo (from /images/logos/___.svg)
+  #   logo: fresh-square
+  #   sections:
+  #   - title: User
+  #     icon: user
+  #     links:
+  #     - text: Profile
+  #       url: /
+  #     - text: Account
+  #       url: /
+  #     - text: Settings
+  #       url: /
+  #   - title: Messages
+  #     icon: envelope
+  #     links:
+  #     - text: Inbox
+  #       url: /
+  #     - text: Compose
+  #       url: /
+  #   - title: Images
+  #     icon: image
+  #     links:
+  #     - text: Library
+  #       url: /
+  #     - text: Upload
+  #       url: /
+  #   - title: Settings
+  #     icon: cog
+  #     links:
+  #     - text: User settings
+  #       url: /
+  #     - text: App settings
+  #       url: /
+  # section1:
+  #   title: Our services
+  #   subtitle: Get highest flexability with us.
+  #   tiles:
+  #   - title: 
+  #     icon: brain
+  #     text: 
+  #     url: /
+  #     buttonText: Get started
+  #   - title: Stochastic Anthropogenics
+  #     icon: dice
+  #     text: We apply advances in probabilistic matrix theory on human-like systems
+  #     url: /
+  #     buttonText: Get started
+  #   - title: Metacognitivity
+  #     icon: 
+  #     text: Increasing the workforce's cognitive potential by stimulating empathic ß-receptors
+  #     url: /
+  #     buttonText: Get started
+  section2:
+    title: Revolutionizing AI services
+    subtitle: Let our leading experts in AI, Quantum technology, data evangelists and human-centered machine intelligence solve your business - the yaaisu way.
+    features: 
+    - title: Human AI
+      text: What if AI would love, feel, and act as we do? Using Neuromorphic computing technologies, we make AI more human than ever before. 
+      # Icon (from /images/illustrations/icons/___.svg)
+      icon: NNet
+    - title: Quantum Neural AI
+      text: By combining latest Neural AI research and quantum computer technology, we disrupevolutionize industries as healthcare, manufacturing, service and logistics
+      icon: QChip
+    - title: Deep Intecognitivity
+      text: Making deep learning deeper - by simulating real-time data with super-deep cognitive neural networks, we solve business intelligence
+      icon: Idea
+  # section3:
+  #   title: Metacognitivity
+  #   subtitle: To rule them all
+  #   image: illustrations/mockups/app-mockup.png
+  #   buttonText: Get started
+  #   buttonLink: "#"
+  section4:
+    title: Let our clients speak for us
+    subtitle: 
+    clients:
+    - name: Dana Mullan
+      quote: yaaisu helped us helped us impove customer satisfaction by 83% by leveraging synergies using their Deep Intecognitivity (c) technology.
+      job: Chief of AI, Systek
+      img: 1
+    - name: Jeff Davies
+      quote: With yaaisu, we disrupevolutionized the digital asset assurance market by giving us a lead against our competition. Without Quantum Neural AI, our risc-metrics system became 30% more accurate.
+      job: Risk Manager, Olson International
+      img: 2
+    - name: David Minsky
+      quote: We believe in our employees. Since collaborating with yaaisu, they feel less stressed, less anxious and more motivated to do the job!
+      job: HR Manager, springrly
+      img: 3
+  section5: false
+  # footer:
+  #   # Logo (from /images/logos/___)
+  #   logo: fresh-white-alt.svg
+  #   # Social Media Title
+  #   socialmediatitle: Follow Us
+  #   # Social media links (GitHub, Twitter, etc.). All are optional.
+  #   socialmedia:
+  #   - link: https://github.com/lucperkins/github-fresh
+  #     # Icons are from Font Awesome
+  #     icon: github
+  #   - link: https://dribbble.com/#
+  #     icon: dribbble
+  #   - link: https://facebook.com/#
+  #     icon: facebook
+  #   - link: https://twitter.com/lucperkins
+  #     icon: twitter
+  #   - link: https://bitbucket.org/#
+  #     icon: bitbucket
+  #   bulmalogo: true
+  #   quicklinks:
+  #     column1:
+  #       title: "Product"
+  #       links:
+  #       - text: Discover features
+  #         link: /
+  #       - text: Why choose our product?
+  #         link: /
+  #       - text: Compare features
+  #         link: /
+  #       - text: Our roadmap
+  #         link: /
+  #       - text: AGB
+  #         link: /agb
+  #     column2:
+  #       title: "Docs"
+  #       links:
+  #       - text: Get started
+  #         link: /
+  #       - text: User guides
+  #         link: /
+  #       - text: Admin guide
+  #         link: /
+  #       - text: Developers
+  #         link: /
+  #     column3:
+  #       title: "Blog"
+  #       links:
+  #       - text: Latest news
+  #         link: /blog/first
+  #       - text: Tech articles
+  #         link: /blog/second
